@@ -1,0 +1,51 @@
+/*menu do site*/
+
+.navbar-inverse{
+}
+.dropdown-menu>li>a:hover{
+	background: #5cb85c;
+}
+/*CONTEUDO DO SITE*/
+#conteudo-site{
+	margin: 0 20px;
+margin-top: 100px;
+}
+.jumbotron h1, .jumbotron .h1{
+	font-size: 4em;
+	color: #5cb85c;
+}
+
+/*categoria*/
+.titulo-categoria{
+	font-size: 3em;
+	font-weight: bolder;
+	border-bottom: 2px solid #cecece;
+}
+.thumbnail{
+	padding: 2px;
+	margin: 15px auto;
+}
+.thumbnail .caption{
+	padding: 0;
+}
+
+.btn-categoria{
+	font-size: 1.6em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #999;
+	width: 100%;
+	margin: 0;
+	margin-bottom: -8px;
+	border-color: #E8E3E3;
+
+}.btn-categoria:hover{
+	color: #00913E ;
+	border-color: #E8E3E3;
+	background-color: white;
+}
+
+/*footer*/
+#rodape{
+	background: #ccc;
+}
