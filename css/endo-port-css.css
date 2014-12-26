@@ -1,5 +1,7 @@
+#tamanho-interface{
+	
+}
 /*menu do site*/
-
 .navbar-inverse{
 }
 .dropdown-menu>li>a:hover{
@@ -8,7 +10,7 @@
 /*CONTEUDO DO SITE*/
 #conteudo-site{
 	margin: 0 20px;
-margin-top: 100px;
+	padding-top: 100px;
 }
 .jumbotron h1, .jumbotron .h1{
 	font-size: 4em;
@@ -18,12 +20,17 @@ margin-top: 100px;
 /*categoria*/
 .titulo-categoria{
 	font-size: 3em;
+	color: black;
+	text-shadow: #999 2px 2px;
 	font-weight: bolder;
 	border-bottom: 2px solid #cecece;
 }
 .thumbnail{
 	padding: 2px;
 	margin: 15px auto;
+}
+.thumbnail:hover{
+	box-shadow:  0 0 4px #4cae4c;
 }
 .thumbnail .caption{
 	padding: 0;
@@ -47,5 +54,5 @@ margin-top: 100px;
 
 /*footer*/
 #rodape{
-	background: #ccc;
+	border-top: 1px solid #cecece;
 }
